@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+
+}
+
+
+#pagContent{
+    position: relative;
+    min-height: 100%;
+    
+}
+
+header{
+    background-color: aqua;
+    height: 10vh;
+}
+
+
+#divFundoBanner{
+    height:  40vh;
+    width: 100%;
+    min-width: 100%;
+    
+}
+
+#videoBanner{
+    height: inherit;
+    width: inherit;
+    min-width: inherit; 
+    background-size:cover;
+    overflow: hidden;
+    /* z-index: -100; */
+    position: relative;
+    
+
+}
+
+main{
+    background-color: #660f0f;
+    /* min-height: 100vh; */
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    height: 20vh;
+    width: 50vw;
+    position: relative;
+    margin-bottom: 0px;
+
+}
+aside{
+    float: right;
+    color: #660f0f;
+    height: 30px;
+    width: 30px;
+}
+
+footer{
+    background-color: gray;
+    position: fixed;
+    bottom:0;
+    height: 80px;
+    width: 100%;  
+    
+}
+
+
+/* using a card to group*/
+.card{
+    background-color: #f0f0f0;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    overflow: hidden;
+}
+.cardBody{
+    background-color: #73da9d;
+    height: 140px;
+    border-radius: 0px;
+    overflow: hidden;
+
+}
+.cardHead{
+    background-color: #cbd3f0;    
+    height: 60px;
+    border-radius: 0px;
+    overflow: hidden;
+
+}
+
+
+.cardImg{
+    height:110%;
+    width:110%;
+    overflow: hidden;
+}
