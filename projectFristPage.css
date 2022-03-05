@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+
+}
+header{
+    background-color: aqua;
+    height: 100px;
+}
+
+footer{
+    background-color: gray;
+    position: absolute;
+    bottom:0;
+    height: 100px;
+    width: 100%;  
+}
+
+#videoBanner{
+    height: 240px;
+    width: 320px;
+}
